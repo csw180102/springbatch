@@ -32,7 +32,7 @@ public class HelloWorldJob {
 	public Step step1() {
 		return this.stepBuilderFactory.get("step1")
 				.tasklet((contribution, chunkContext) -> {
-					System.out.println("■■■■■ Chaptor 4 Start ...");
+					System.out.println("■■■■■ Chaptor 4 Start... ...");
 					return RepeatStatus.FINISHED;
 				}).build();
 	}
